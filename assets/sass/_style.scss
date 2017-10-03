@@ -1,0 +1,159 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: Raleway;
+    font-variant: normal;
+}
+body {
+    background-color: $background-color-main;
+    color: $background-color-second;
+}
+a:hover {
+    color: $background-color-fifth;
+    text-decoration: none;
+}
+/* reset bootstrap*/
+.navbar-default {
+    background-color: $background-color-main;
+    @include style-border();
+}
+.navbar-brand {
+    height: 45px;
+    padding: 0px;
+}
+.navbar-toggle {
+    margin-top: 10px;
+}
+/*.navbar-nav>li>a {
+    line-height: 37px;
+}*/
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+    background-color: $background-color-third;
+    color: $background-color-second;
+    height: 45px;
+}
+.dropdown-menu {
+    background-color: $background-color-third;
+    font-size: $font-size-main;
+}
+.dropdown-menu>li>a {
+    color: $background-color-second;
+}
+.row-nav {
+    height: 45px;
+}
+.navbar-default .navbar-nav>li>a, .navbar-default .navbar-text {
+    color: $background-color-second;
+}
+/* reset bootstrap */
+/* carousel */
+.slider {
+    margin-top: -10px;
+}
+/* carousel */
+.color01 {
+    color: $background-color-fourth;
+    font-weight: bold;
+    font-size: $font-size-second;
+    text-align: center;
+}
+.margincolor {
+    margin-bottom: 50px;
+}
+.slogan {
+    color: $background-color-main;
+    font-weight: bold;
+    font-size: $font-size-third;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.principal {
+    height: auto;
+    width: 100%;
+    background-color: $background-color-third;
+}
+.intro {
+    text-align: center;
+}
+#sliderbg {
+    background-image: url(../img/collage.gif);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    color: $background-color-third;
+}
+#segunda {
+    padding-top: 20px;
+    background-image: url(../img/landing.png);
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    /*background-attachment: fixed;*/
+    color: $background-color-second;
+}
+#tercera {
+}
+.img {
+    max-width: 250px;
+    padding-top: 50px;
+    margin-top: 10px;
+}
+.logo {
+    max-width: 300px;
+    margin-top: 10px;
+}
+.redes {
+    width: 50%;
+    height: auto;
+    padding-top: 20px;
+    text-align: center;
+}
+.icono {
+    color: $background-color-fourth;
+    margin: 7px;
+}
+.icono:hover {
+    color: $background-color-second;
+    margin: 7px;
+}
+.footer {
+    background-image: url(../img/border2.png);
+    background-repeat: repeat-x;
+    width: 100%;
+    height: 20vh;
+    background-position: bottom;
+    line-height:20px;
+    margin-top: 0;
+}
+.footer a {
+    color: $background-color-second;
+}
+/*media*/
+@media only screen and (min-width: 1281px) {
+}
+@media only screen and (min-width: 768px) and (max-width: 1280px) {
+    .logo {
+    max-width: 200px;
+    }
+}
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+    .color01 {
+    font-size: $font-size-media;
+    text-align: center;
+    margin-left: auto;
+    }
+    .logo {
+    max-width: 200px;
+    }
+}
+@media only screen and (min-width: 1px) and (max-width: 480px) {
+    .color01 {
+    font-size: $font-size-media;
+    text-align: center;
+    margin-left: auto;
+    }
+}

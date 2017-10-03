@@ -1,0 +1,6 @@
+/*funciones reutilizables*/
+@mixin style-border() {
+	color: $background-color-main;
+	border: $background-color-main;
+	/*border-style: dashed;*/
+}
