@@ -37,8 +37,8 @@
 	      			<ul class="nav navbar-nav navbar-right">
 	        			<li><a href="#">ESTUDIO</a></li>
 	        			<li><a href="#">PELUQUERIA</a></li>
-	        			<li><a href="#vr">MAQUILLAJE</a></li>
-	        			<li><a href="#">CONTACTO</a></li>
+	        			<li><a href="#">MAQUILLAJE</a></li>
+	        			<li><a href="#contacto">CONTACTO</a></li>
 	      			</ul>
 	    			</div><!-- /.navbar-collapse -->
 	  				</div><!-- /.container-fluid -->
@@ -103,7 +103,43 @@
 	</div>
 </div>
 <!-- -->
-<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 footer text-right" id="footer">
+<div id="contacto" class="contacto">
+<div class="container">
+	<div class="row">
+	<div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+	<!-- <form action="php/formulario.php" name="contact_form" method="post"> -->
+		<form action="dist/php/formulario.php" name="contact_form" method="post" role="form" id="contact-form" class="contact-form">
+                    <div class="row">
+                		<div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                  		<div class="form-group">
+                            <input type="text" class="form-control" name="nombre" autocomplete="off" id="nombre" placeholder="Nombre" value="">
+                  		</div>
+                  	</div>
+                    	<div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                  		<div class="form-group">
+                            <input type="email" class="form-control" name="email" autocomplete="off" id="email" placeholder="E-mail">
+                  		</div>
+                  	</div>
+                  	</div>
+                  	<div class="row">
+                  		<div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                  		<div class="form-group">
+                            <textarea class="form-control textarea" rows="3" name="mensaje" id="mensaje" placeholder="Mensaje"></textarea>
+                  		</div>
+                  	</div>
+                    </div>
+                    <div class="row">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                  <button type="submit" class="btn main-btn pull-right">Enviar Mensaje</button>
+                  </div>
+                  </div>
+                </form>
+    </div>
+	</div>
+</div>
+</div>
+<!-- -->
+<div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 footer text-right" id="footer">
 <p class="foo">Copyright © 2017 <a href="mailto:adelaidaaguayo@gmail.com">Diseño</a> | <a href="mailto:rangibecerra@gmail.com">Desarrollo Web</a></p>
 </div>
 <script type="text/javaScript" src="dist/js/script.js"></script>

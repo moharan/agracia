@@ -96,6 +96,7 @@ a:hover {
     color: $background-color-second;
 }
 #tercera {
+    margin-bottom: 100px;
 }
 .img {
     max-width: 250px;
@@ -134,6 +135,42 @@ a:hover {
 }
 .foo {
     margin-top: 100px;
+}
+/*contacto*/
+.contacto {
+    margin-bottom:15px;
+}
+.contact-form {
+    margin-top:15px;
+}
+.contact-form .textarea {
+    min-height:120px;
+    resize:none;
+}
+.form-control {
+    box-shadow:none;
+    border-color:$background-color-third;
+    height:49px;
+}
+.form-control:focus {
+    box-shadow:none;
+    border-color:$background-color-fourth;
+}
+.form-control-feedback {
+    line-height:50px;
+}
+.main-btn{
+    background:$background-color-fourth;
+    border-color:$background-color-fourth;
+    color:$background-color-second;
+}
+.main-btn:hover {
+    background:$background-color-fourth;
+    color:$background-color-second;
+}
+.form-control-feedback {
+line-height: 50px;
+top: 0px;
 }
 /*media*/
 @media only screen and (min-width: 1281px) {
