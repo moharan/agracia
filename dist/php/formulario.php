@@ -22,9 +22,9 @@ $mensaje = $_POST['mensaje'];
 <b>Estudio - Peluqueria - Maquillaje, 2017</b><br>
 <br>
 Muchas Gracias,<br>
-<b> Alta Gracia </b>
+<b> Alta Gracia </b><br>
+<img src='http://www.agracia.cl/dist/img/logo_main.png'>
 <hr>
-
 ";
 
   $mail=  mail($email,"Hemos recibido tu mensaje a Alta Gracia",$message,$headers);

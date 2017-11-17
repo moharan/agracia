@@ -35,7 +35,7 @@
 	    			<!-- Collect the nav links, forms, and other content for toggling -->
 	    			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 	      			<ul class="nav navbar-nav navbar-right">
-	      			<li><a href="index.html">INICIO</a></li>
+              <li><a href="index.html">INICIO</a></li>
 	        			<li><a href="somos.html">QUIÉNES SOMOS?</a></li>
 	        			<li><a href="#">SERVICIOS</a></li>
 	        			<li><a href="#">GALERIA</a></li>
@@ -46,26 +46,41 @@
 			</nav>
 			<!-- nav -->
 			<!-- <576px ≥576px ≥768px ≥992px ≥1200px -->
-			<div class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 intro">
-				<img src="dist/img/logo01.png" class="img-responsive logo" alt="logotipo">
-						<div class="slogan mar"><b>¡Siéntete increible!</b></div>
-						<div class="text-uppercase mar"><a class="color01">estudio</a></div>
-						<div class="text-uppercase mar"><a class="color01">peluqueria</a></div>
-						<div class="text-uppercase mar margincolor"><a class="color01">maquillaje</a></div>
-			</div>
-			<div class="col-8 col-sm-8 col-md-8 col-lg-8 col-xl-8">
-			<!-- Carousel -->
-			<section id="slider" class="slider">
-					<ul>
-						<li><img src="dist/img/001.jpg" alt="atractivos" class="img-responsive"></li>
-						<li><img src="dist/img/002.jpg" alt="atractivos" class="img-responsive"></li>
-						<li><img src="dist/img/003.jpg" alt="atractivos" class="img-responsive"></li>
-						<li><img src="dist/img/004.jpg" alt="atractivos" class="img-responsive"></li>
-						<li><img src="dist/img/005.jpg" alt="atractivos" class="img-responsive"></li>
-						<li><img src="dist/img/006.jpg" alt="atractivos" class="img-responsive"></li>
-					</ul>
-			</section>
-        	</div>
+			<div id="contacto" class="contacto">
+<div class="container">
+	<div class="row">
+	<div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+		<img src="dist/img/logo01.png" class="img-responsive img" alt="otro logotipo">
+		<form action="dist/php/formulario.php" name="contact_form" method="post" role="form" id="contact-form" class="contact-form">
+                    <div class="row">
+                		<div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                  		<div class="form-group">
+                            <input type="text" class="form-control" name="nombre" autocomplete="off" id="nombre" placeholder="Nombre" value="" required>
+                  		</div>
+                  	</div>
+                    	<div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                  		<div class="form-group">
+                            <input type="email" class="form-control" name="email" autocomplete="off" id="email" placeholder="E-mail" required>
+                  		</div>
+                  	</div>
+                  	</div>
+                  	<div class="row">
+                  		<div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                  		<div class="form-group">
+                            <textarea class="form-control textarea" rows="3" name="mensaje" id="mensaje" placeholder="Mensaje" required></textarea>
+                  		</div>
+                  	</div>
+                    </div>
+                    <div class="row">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 mensaje">
+                  <button type="submit" class="btn main-btn pull-right">Enviar Mensaje</button>
+                  </div>
+                  </div>
+                </form>
+    </div>
+	</div>
+</div>
+</div>
 		</div>
 	</div>
 	<div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 footer text-right" id="footer">
